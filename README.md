@@ -13,6 +13,8 @@ Designed to help restaurant staff efficiently manage menus, orders, and daily op
 ## System Preview
 >⚠️Note: The data shown here is for demonstration purposes only and does not represent real data.
 
+### Admin Panel
+
 <p align="center">
   <img src="assets/img/showcase/dashboard.png" width="30%">
   <img src="assets/img/showcase/Dashboard_0.5.png" width="30%">
@@ -29,6 +31,15 @@ Designed to help restaurant staff efficiently manage menus, orders, and daily op
   <img src="assets/img/showcase/customer_list.png" width="30%">
   <img src="assets/img/showcase/report.png" width="30%">
 </p>
+
+### Staff Panel
+
+<p align="center">
+  <img src="assets/img/showcase/staff_dash.png" width="30%">
+  <img src="assets/img/showcase/staff_dash_0.5.png" width="30%">
+  <img src="assets/img/showcase/View_Orders.png" width="30%">
+</p>
+
 ---
 
 ## Features
