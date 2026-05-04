@@ -84,6 +84,38 @@ Designed to help restaurant staff efficiently manage menus, orders, and daily op
 
 ---
 
+## Development Timeline
+
+#### Phase 1 – Planning
+- Defined system scope as a Restaurant Management System
+- Selected technology stack: PHP, MySQL, XAMPP
+- Designed initial database structure and UI concept
+
+#### Phase 2 – Core System Development
+- Built authentication system (login/logout with roles)
+- Developed admin and staff dashboard
+- Implemented menu and order management modules
+
+#### Phase 3 – Database Integration
+- Connected system to MySQL database
+- Implemented CRUD operations for menu, orders, and users
+
+#### Phase 4 – UI & Feature Improvements
+- Improved dashboard layout and usability
+- Added reporting and order tracking features
+- Enhanced responsiveness and UI consistency
+
+#### Phase 5 – Expansion Plan
+- Planned integration of online ordering system (web-based landing page)
+- Future goal: unify POS system with customer-facing ordering platform
+
+---
+
+## Original Concept
+
+This project started as a simple POS system for restaurant order management and evolved into a full restaurant management platform with future plans for online ordering integration.
+
+---
 ## Contribution
 
 We welcome contributions! Please follow the proper workflow:
