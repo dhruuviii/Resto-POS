@@ -3,9 +3,9 @@
 ![License](https://img.shields.io/badge/License-Educational-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-# Resto POS System
+# Restaurant Management System
 
-***Capstone Project*** – A restaurant order and menu management system built using **PHP**, **MySQL**, and **XAMPP**.
+***Capstone Project*** – A ***"Restaurant Order & Menu Management System"*** built using **PHP**, **MySQL**, and **XAMPP**.
 Designed to help restaurant staff efficiently manage menus, orders, and daily operations through a clean and responsive interface.
 
 ---
