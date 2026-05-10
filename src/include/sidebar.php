@@ -26,7 +26,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         </h2>
 
         <?php if ($_SESSION['role'] === 'admin' || $_SESSION['role'] === 'staff'): ?>
-            <a href="<?= $base_url ?>index.php" class="<?= $currentPage == 'index.php' ? 'active' : '' ?>">
+            <a href="<?= $base_url ?>dashboard.php" class="<?= $currentPage == 'dashboard.php' ? 'active' : '' ?>">
                 <i class="fas fa-chart-line"></i> Dashboard
             </a>
         <?php endif; ?>
