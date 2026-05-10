@@ -8,7 +8,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // If already logged in, redirect to index.php
 if (isset($_SESSION['users']) && !empty($_SESSION['users'])) {
-    header("Location: ../index.php");
+    header("Location: ../dashboard.php");
     exit();
 }
 
