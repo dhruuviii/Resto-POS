@@ -7,7 +7,7 @@
     </div>
 </div>
 <script>
-    fetch('<?= $base_url ?>db/fetch_weekly_sales.php')
+    fetch('<?= $base_url ?>admin/db/fetch_weekly_sales.php')
         .then(res => res.json())
         .then(data => {
             const labels = data.map(item => item.label);

@@ -22,9 +22,9 @@ $orders = $conn->query("
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Orders</title>
 
-    <link rel="stylesheet" href="<?= $base_url ?>assets/css/view.css">
-    <link rel="stylesheet" href="<?= $base_url ?>assets/css/sidebar.css">
-    <link rel="stylesheet" href="<?= $base_url ?>assets/icon/css/all.min.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/view.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/sidebar.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/icon/css/all.min.css">
 </head>
 
 <body>
@@ -83,7 +83,7 @@ $orders = $conn->query("
         }
     </script>
 
-    <script src="<?= $base_url ?>assets/js/notif.js" defer></script>
+    <script src="<?= $base_url ?>admin/assets/js/notif.js" defer></script>
 </body>
 
 </html>

@@ -15,8 +15,8 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sidebar</title>
-    <link rel="stylesheet" href="<?= $base_url ?>assets/css/sidebar.css">
-    <script src="<?= $base_url ?>assets/js/notif.js" defer></script>
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/sidebar.css">
+    <script src="<?= $base_url ?>admin/assets/js/notif.js" defer></script>
 </head>
 
 <body>
@@ -26,39 +26,39 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         </h2>
 
         <?php if ($_SESSION['role'] === 'admin' || $_SESSION['role'] === 'staff'): ?>
-            <a href="<?= $base_url ?>dashboard.php" class="<?= $currentPage == 'dashboard.php' ? 'active' : '' ?>">
+            <a href="<?= $base_url ?>admin/dashboard.php" class="<?= $currentPage == 'admin/dashboard.php' ? 'active' : '' ?>">
                 <i class="fas fa-chart-line"></i> Dashboard
             </a>
         <?php endif; ?>
 
         <?php if ($_SESSION['role'] === 'admin'): ?>
-            <a href="<?= $base_url ?>src/menu/menu.php" class="<?= $currentPage == 'menu.php' ? 'active' : '' ?>">
+            <a href="<?= $base_url ?>admin/src/menu/menu.php" class="<?= $currentPage == 'menu.php' ? 'active' : '' ?>">
                 <i class="fas fa-utensils"></i> Menu
             </a>
 
-            <a href="<?= $base_url ?>src/order/orders.php" class="<?= $currentPage == 'orders.php' ? 'active' : '' ?>">
+            <a href="<?= $base_url ?>admin/src/order/orders.php" class="<?= $currentPage == 'orders.php' ? 'active' : '' ?>">
                 <i class="fas fa-receipt"></i> Orders
             </a>
 
-            <a href="<?= $base_url ?>src/manage/menu_management.php" class="<?= $currentPage == 'menu_management.php' ? 'active' : '' ?>">
+            <a href="<?= $base_url ?>admin/src/manage/menu_management.php" class="<?= $currentPage == 'menu_management.php' ? 'active' : '' ?>">
                 <i class="fas fa-edit"></i> Custom Menu
             </a>
 
-            <a href="<?= $base_url ?>src/accounts/staff.php" class="<?= $currentPage == 'staff.php' ? 'active' : '' ?>">
+            <a href="<?= $base_url ?>admin/src/accounts/staff.php" class="<?= $currentPage == 'staff.php' ? 'active' : '' ?>">
                 <i class="fas fa-user-shield"></i> Accounts
             </a>
 
-            <a href="<?= $base_url ?>src/users/customers.php" class="<?= $currentPage == 'customers.php' ? 'active' : '' ?>">
+            <a href="<?= $base_url ?>admin/src/users/customers.php" class="<?= $currentPage == 'customers.php' ? 'active' : '' ?>">
                 <i class="fas fa-users"></i> Customer
             </a>
 
-            <a href="<?= $base_url ?>src/dashboard/stats.php" class="<?= $currentPage == 'stats.php' ? 'active' : '' ?>">
+            <a href="<?= $base_url ?>admin/src/dashboard/stats.php" class="<?= $currentPage == 'stats.php' ? 'active' : '' ?>">
                 <i class="fas fa-chart-bar"></i> Statistics
             </a>
         <?php endif; ?>
 
         <?php if ($_SESSION['role'] === 'staff'): ?>
-            <a href="<?= $base_url ?>src/notification/view.php" class="view-orders-link <?= $currentPage == 'view.php' ? 'active' : '' ?>">
+            <a href="<?= $base_url ?>admin/src/notification/view.php" class="view-orders-link <?= $currentPage == 'view.php' ? 'active' : '' ?>">
                 <i class="fas fa-chart-bar"></i> View Orders
                 <span class="notif-wrapper">
                     <i class="fas fa-bell"></i>
@@ -68,7 +68,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             </a>
         <?php endif; ?>
 
-        <a href="<?= $base_url ?>auth/logout.php">
+        <a href="<?= $base_url ?>admin/auth/logout.php">
             <i class="fas fa-sign-out-alt"></i> Logout
         </a>
     </div>
