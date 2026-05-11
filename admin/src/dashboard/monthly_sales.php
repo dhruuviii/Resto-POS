@@ -9,7 +9,7 @@
 
 <script>
     // Fetch monthly sales for Chart.js
-    fetch('<?= $base_url ?>db/fetch_data.php')
+    fetch('<?= $base_url ?>admin/db/fetch_data.php')
         .then(res => res.json())
         .then(data => {
             const labels = data.map(item => item.month);

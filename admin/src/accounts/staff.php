@@ -12,9 +12,9 @@ $result = $conn->query("SELECT id, username, fullname, role FROM users");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Staff Management</title>
-    <link rel="stylesheet" href="<?= $base_url ?>assets/css/sidebar.css">
-    <link rel="stylesheet" href="<?= $base_url ?>assets/css/staff.css">
-    <link rel="stylesheet" href="<?= $base_url ?>assets/icon/css/all.min.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/sidebar.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/staff.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/icon/css/all.min.css">
 
     <style>
         /* TOPBAR */

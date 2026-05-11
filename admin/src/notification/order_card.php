@@ -1,4 +1,7 @@
 <?php
+if (!isset($order) || !is_array($order) || !isset($order['orderID'])) {
+    return;
+}
 $formatted_date = date("M d, Y h:i A", strtotime($order['order_date']));
 $order_id = (int)$order['orderID'];
 

@@ -8,7 +8,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // If already logged in, redirect to index.php
 if (isset($_SESSION['users']) && !empty($_SESSION['users'])) {
-    header("Location: ../dashboard.php");
+    header("Location: ../admin/dashboard.php");
     exit();
 }
 
@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['users'] = $user['username'];
         $_SESSION['role'] = $user['role'];
 
-        header("Location: ../index.php");
+        header("Location: ../dashboard.php");
         exit();
     } else {
         $error = "Invalid credentials!";

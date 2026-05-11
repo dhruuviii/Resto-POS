@@ -13,9 +13,9 @@ checkRole(['admin', 'staff']);
     <title>Sales Dashboard</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="<?= $base_url ?>assets/css/stats.css">
-    <link rel="stylesheet" href="<?= $base_url ?>assets/css/sidebar.css">
-    <link rel="stylesheet" href="<?= $base_url ?>assets/icon/css/all.min.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/stats.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/sidebar.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/icon/css/all.min.css">
 
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

@@ -19,9 +19,9 @@ $orders = $conn->query("
 
 <head>
     <title>Orders</title>
-    <link rel="stylesheet" href="<?= $base_url ?>assets/css/orders.css">
-    <link rel="stylesheet" href="<?= $base_url ?>assets/css/sidebar.css">
-    <link rel="stylesheet" href="<?= $base_url ?>assets/icon/css/all.min.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/orders.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/sidebar.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/icon/css/all.min.css">
 
     <style>
         .header {
