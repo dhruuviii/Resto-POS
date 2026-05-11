@@ -16,15 +16,15 @@ Designed to help restaurant staff efficiently manage menus, orders, and daily op
 ### Admin Panel
 
 <p align="center">
-  <img src="admin/assets/img/showcase/dashboard.png" width="30%">
+  <img src="admin/assets/img/showcase/Dashboard.png" width="30%">
   <img src="admin/assets/img/showcase/Dashboard_0.5.png" width="30%">
-  <img src="admin/assets/img/showcase/menu.png" width="30%">
+  <img src="admin/assets/img/showcase/Menu.png" width="30%">
 </p>
 
 <p align="center">
   <img src="admin/assets/img/showcase/Order_list.png" width="30%">
   <img src="admin/assets/img/showcase/Custom_Menu.png" width="30%">
-  <img src="admin/assets/img/showcase/account.png" width="30%">
+  <img src="admin/assets/img/showcase/Account.png" width="30%">
 </p>
 
 <p align="center">
