@@ -8,9 +8,9 @@ checkRole(['admin']);
 
 <head>
     <title>Orders</title>
-    <link rel="stylesheet" href="<?= $base_url ?>assets/css/menu.css">
-    <link rel="stylesheet" href="<?= $base_url ?>assets/css/sidebar.css">
-    <link rel="stylesheet" href="<?= $base_url ?>assets/icon/css/all.min.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/menu.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/sidebar.css">
+    <link rel="stylesheet" href="<?= $base_url ?>admin/assets/icon/css/all.min.css">
     <style>
         .header {
             position: sticky;
@@ -131,7 +131,7 @@ checkRole(['admin']);
         <button class="back-btn" onclick="closeCart()">Back</button>
     </div>
 
-    <script src="../../assets/js/cart.js"></script>
+    <script src="../../admin/assets/js/cart.js"></script>
 
     <script>
         // AJAX search function

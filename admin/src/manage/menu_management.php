@@ -7,9 +7,9 @@ checkRole(['admin']);
 
 <head>
   <title>Menu Management</title>
-  <link rel="stylesheet" href="<?= $base_url ?>assets/css/menu_management.css">
-  <link rel="stylesheet" href="<?= $base_url ?>assets/css/sidebar.css">
-  <link rel="stylesheet" href="<?= $base_url ?>assets/icon/css/all.min.css">
+  <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/menu_management.css">
+  <link rel="stylesheet" href="<?= $base_url ?>admin/assets/css/sidebar.css">
+  <link rel="stylesheet" href="<?= $base_url ?>admin/assets/icon/css/all.min.css">
 
   <style>
     /* TOPBAR */
